@@ -1,0 +1,138 @@
+.ProductDisplay {
+    display: flex;
+    margin: 0 170px;
+}
+
+.productleft {
+    display: flex;
+    gap: 17px;
+}
+
+.displayimg {
+    width: 766px;
+    height: 800px;
+    margin: 5px;
+}
+
+.displayimg-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 5px;
+}
+
+.displayimg-list img {
+    height: 90px;
+}
+
+.displayright {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.displayright h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.displaystar {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.displayright-price {
+    display: flex;
+    margin: 40px 0;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.oldprice-display {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.newprice-display {
+    color: #ff4141;
+}
+
+.display-right-size h1 {
+    margin-top: 25px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.display-right-size {
+    display: flex;
+    margin: 0 30px ;
+    gap: 20px;
+}
+
+.display-right-size div {
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+#pid {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.display-right-category {
+    margin-top: 10px;
+}
+
+.display-right-category span {
+    font-weight: 600;
+}
+
+/* Your existing styles here */
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .ProductDisplay {
+        flex-direction: column;
+        margin: 0 20px; /* Adjust margin as needed */
+    }
+
+    .displayimg {
+        width: 100%; /* Adjust image width to fit smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px 0; /* Adjust margins for smaller screens */
+    }
+
+    .displayimg-list {
+        display: none;
+    }
+    .productleft {
+        gap: 10px; /* Adjust gap between items */
+    }
+
+    .displayright {
+        margin: 0; /* Reset margin */
+    }
+
+    .displayright h1 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+}

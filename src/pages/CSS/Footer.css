@@ -1,0 +1,38 @@
+/* Styling the Footer */
+
+.footer {
+    background-color: #161A30;
+    /* padding: 20px; */
+    color: #B6BBC4;
+    
+}
+
+.main_footer {
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-around;
+}
+
+.lists-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.lists-footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+    /* padding: 3px; */
+
+
+ .lists-footer a:hover {
+    color: #3e4777;
+}
+
+.lists-footer h4 {
+    margin: 20px;
+}
+
+
+
+
